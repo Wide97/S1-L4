@@ -85,4 +85,30 @@ body {
     padding: 20px;
   }
 
+  .third-part p {
+    margin-bottom: 40px;
+  }
+
+  .table {
+    width: 100%;
+  }
+
+  .title-table {
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .table-main {
+    color: white;
+  }
+
+  .bg-main {
+    background-color: rgb(14, 192, 236);
+  }
+  
+  tbody {
+    padding: 30px;
+  }
+
 }
