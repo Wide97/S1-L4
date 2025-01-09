@@ -1,15 +1,88 @@
-/* IMPOSTAZIONI GENERALI */
+body {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url(../img/sfondo.png);
+  background-size: auto;
+  line-height: 28px;
+}
 
-/* HEADER */
+@media screen and (max-width: 500px) {
+  .header {
+    background-color: rgb(21, 150, 150);
+    text-align: center;
+    margin: 30px 20px;
+    padding: 30px 20px;
+    box-shadow: 0 10px 10px grey;
+  }
 
-/* MAIN */
+  .header img {
+    width: 60%;
+    margin-bottom: 25px;
+  }
 
-/* ELEMENTI NEL MAIN - ARTICLE */
+  .header h1 {
+    color: white;
+    margin-bottom: 25px;
+  }
 
-/* TABELLE */
+  .header a {
+    color: white;
+    text-decoration: none;
+  }
 
-/* FORM */
+  .header i {
+    color: white;
+  }
 
-/* ELEMENTI NELL' ASIDE */
+  .header li {
+    padding-bottom: 8px;
+  }
 
-/* FOOTER */
+  .main {
+    margin: 0 20px;
+    padding: 0 30px;
+    background-color: white;
+    box-shadow: 0 10px 10px grey;
+  }
+
+  .first-part h2 {
+    padding: 40px 0;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .first-part p {
+    margin-bottom: 40px;
+  }
+
+  .first-part ul {
+    list-style-type: disc;
+    padding: 20px;
+  }
+
+  .code {
+    background-color: lightgrey;
+    padding: 3px;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: gray;
+    border-style: dotted;
+  }
+
+  .author {
+    color: gray;
+    font-size: 20px;
+  }
+
+  .part {
+    color: brown;
+    font-weight: bold;
+  }
+
+  .second-part ol {
+    list-style-type: decimal;
+    padding: 20px;
+  }
+
+}
