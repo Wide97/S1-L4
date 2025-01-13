@@ -106,9 +106,31 @@ body {
   .bg-main {
     background-color: rgb(14, 192, 236);
   }
-  
+
+  .table {
+    border-bottom: solid blue;
+    margin-bottom: 30px;
+  }
+
+  .bg-main td {
+    padding: 20px;
+    color: white;
+  }
+
+  td {
+    padding: 10px;
+  }
+
+  tr.odd td,
+  tr.odd th {
+    background-color: lightgray;
+  }
+
   tbody {
     padding: 30px;
   }
 
+  .ref {
+    color: aqua;
+  }
 }
