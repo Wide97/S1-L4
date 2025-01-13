@@ -144,6 +144,7 @@ body {
   .news {
     background-color: lightgray;
     padding: 20px;
+    margin-bottom: 30px;
   }
 
   .news h2 {
@@ -177,5 +178,49 @@ body {
     color: white;
     width: 100px;
    
+  }
+
+  .article-related {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+  }
+
+  .sections {
+    background-color: lightgray;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: solid 1px grey;
+  }
+
+  .sections a {
+    color: blue;
+  }
+
+  .end {
+    text-align: end;
+  }
+
+  footer {
+    background-color: rgb(21, 150, 150);
+    padding: 20px;
+    color: white;
+    margin: 50px 5%;
+  }
+
+  footer p {
+    text-align: center;
+  }
+
+  .blog {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 30px;
+  }
+
+  .epicode {
+    color: violet;
+    font-weight: bold;
   }
 }
