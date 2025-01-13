@@ -11,6 +11,8 @@ HTML5: Per strutturare il contenuto della pagina web.
 CSS3: Per definire lo stile e la formattazione degli elementi della pagina, garantendo un design moderno.
 Font Awesome: Per l'inserimento di icone nel progetto.
 Google Fonts: Per migliorare la tipografia e la leggibilità del testo.
+
+
 📋 Struttura del Progetto
 css
 Copia codice
@@ -22,11 +24,15 @@ Copia codice
  ┃ ┣ 📂 img
  ┃ ┃ ┗ 📜 logo.svg
  ┗ 📜 index.html
+
+ 
 🗂️ Dettaglio dei File
 index.html: Contiene la struttura principale del blog in HTML.
 assets/css/reset.css: File di reset CSS per uniformare lo stile su diversi browser.
 assets/css/style.css: Foglio di stile principale con tutte le personalizzazioni CSS.
 assets/img/logo.svg: Logo utilizzato nel progetto.
+
+
 📌 Funzionalità del Template
 ✅ Layout responsive per garantire un'esperienza ottimale su dispositivi desktop, tablet e mobile.
 ✅ Design moderno e minimalista con un focus sulla leggibilità.
